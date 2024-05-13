@@ -30,8 +30,7 @@ print(chr(27) + "[2J")
 print(chr(27) + "[2J")
 print(chr(27) + "[2J")
 print(chr(27) + "[2J")
-print(chr(27) + "[2J")
-print(chr(27) + "[2J")
+
 
 print('Hello '+name+".")
 print("What pronouns shall your character follow?")
@@ -81,3 +80,14 @@ while pronouns!= "m" and pronouns!= "f" and pronouns!= "n":
                 else:
                     yn=""
                     pronouns=""
+                    
+                    
+print(chr(27) + "[2J")
+print(chr(27) + "[2J")
+print("You are "+name+".")
+if pronouns=="m":
+    print("You are a male individual.")
+if pronouns=="f":
+    print("You are a female individual.")
+if pronouns=="n":
+    print("You are a non-binary individual.")
