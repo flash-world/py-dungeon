@@ -38,7 +38,7 @@ print("What pronouns shall your character follow?")
 yn=""
 pronouns = ""
 while pronouns!= "m" and pronouns!= "f" and pronouns!= "n":
-    pronouns = input("(m)ale (f)emale (n)on-binary")
+    pronouns = input("(m)ale (f)emale (n)on-binary:")
     if pronouns!= "m" and pronouns!= "f" and pronouns!= "n":
         
         print("Sorry I cannot define that. Please select from the availible choices")
