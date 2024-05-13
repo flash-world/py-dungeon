@@ -56,3 +56,27 @@ while pronouns == "":
                 else:
                     yn=""
                     pronouns=""
+        if pronouns == "f":
+            print("You have chosen to be Female. Are you satisfied with this choice?")
+            yn= input("y/n")
+            if yn != "y" and yn != "n" :
+                yn= input("y/n")
+            else: 
+                if yn == "y":
+                    pronouns="f"
+                    break
+                else:
+                    yn=""
+                    pronouns=""
+        if pronouns == "n":
+            print("You have chosen to be Non-Binary. Are you satisfied with this choice?")
+            yn= input("y/n")
+            if yn != "y" and yn != "n" :
+                yn= input("y/n")
+            else: 
+                if yn == "y":
+                    pronouns="n"
+                    break
+                else:
+                    yn=""
+                    pronouns=""
