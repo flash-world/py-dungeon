@@ -47,7 +47,7 @@ while pronouns == "":
         if pronouns == "m":
             print("You have chosen to be Male. Are you satisfied with this choice?")
             yn= input("y/n")
-            if yn != y and yn != n :
+            if yn != "y" and yn != "n" :
                 yn= input("y/n")
             else: 
                 if yn == "y":
