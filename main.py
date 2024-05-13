@@ -24,4 +24,26 @@ while yn == False:
     if yn == True:
         break
 print(chr(27) + "[2J")
+print(chr(27) + "[2J")
+print(chr(27) + "[2J")
+print(chr(27) + "[2J")
+print(chr(27) + "[2J")
+print(chr(27) + "[2J")
+print(chr(27) + "[2J")
+print(chr(27) + "[2J")
+print(chr(27) + "[2J")
+
 print('Hello '+name+".")
+print("What pronouns shall your character follow?")
+yn=""
+pronouns = ""
+while pronouns = "":
+    pronouns = input("(m)ale (f)emale (n)on-binary")
+    if pronouns!= "m" and pronouns!= "f" and pronouns!= "m":
+        
+        print("Sorry I cannot define that. Please select from the availible choices")
+        pronouns = input("(m)ale (f)emale (n)on-binary")
+    else :
+        if pronouns == "m":
+            print("You have chosen to be Male. Are you satisfied with this choice?")
+            yn= input(y or n)
