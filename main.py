@@ -23,3 +23,5 @@ while yn == False:
             break
     if yn == True:
         break
+print(chr(27) + "[2J")
+print('Hello '+name+".")
