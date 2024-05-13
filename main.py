@@ -37,7 +37,7 @@ print('Hello '+name+".")
 print("What pronouns shall your character follow?")
 yn=""
 pronouns = ""
-while pronouns = "":
+while pronouns == "":
     pronouns = input("(m)ale (f)emale (n)on-binary")
     if pronouns!= "m" and pronouns!= "f" and pronouns!= "m":
         
