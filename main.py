@@ -37,18 +37,19 @@ print('Hello '+name+".")
 print("What pronouns shall your character follow?")
 yn=""
 pronouns = ""
-while pronouns == "":
+while pronouns!= "m" and pronouns!= "f" and pronouns!= "n":
     pronouns = input("(m)ale (f)emale (n)on-binary")
-    if pronouns!= "m" and pronouns!= "f" and pronouns!= "m":
+    if pronouns!= "m" and pronouns!= "f" and pronouns!= "n":
         
         print("Sorry I cannot define that. Please select from the availible choices")
+        pronouns = ""
         pronouns = input("(m)ale (f)emale (n)on-binary")
     else :
         if pronouns == "m":
             print("You have chosen to be Male. Are you satisfied with this choice?")
             yn= input("y/n")
             if yn != "y" and yn != "n" :
-                yn= input("y/n")
+                yn= input("y/n:")
             else: 
                 if yn == "y":
                     pronouns="m"
@@ -58,7 +59,7 @@ while pronouns == "":
                     pronouns=""
         if pronouns == "f":
             print("You have chosen to be Female. Are you satisfied with this choice?")
-            yn= input("y/n")
+            yn= input("y/n:")
             if yn != "y" and yn != "n" :
                 yn= input("y/n")
             else: 
@@ -70,7 +71,7 @@ while pronouns == "":
                     pronouns=""
         if pronouns == "n":
             print("You have chosen to be Non-Binary. Are you satisfied with this choice?")
-            yn= input("y/n")
+            yn= input("y/n:")
             if yn != "y" and yn != "n" :
                 yn= input("y/n")
             else: 
