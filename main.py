@@ -91,3 +91,18 @@ if pronouns=="f":
     print("You are a female individual.")
 if pronouns=="n":
     print("You are a non-binary individual.")
+print(chr(27) + "[2J")
+
+input("Hit enter to begin")
+
+print(chr(27) + "[2J")
+
+
+print("You wake up on the cold hard floor. You get up to see you've been transported to a dungeon. You hear water dripping.")
+
+print("There is a door but it seems to be locked.")
+print("There may be a key nearby.")
+print(chr(27) + "[2J")
+act = input("What will you do? type "help" for commands.")
+if act == "help":
+    print"
